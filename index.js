@@ -7,7 +7,7 @@ async function main() {
   });
   
   console.log("Client is ready! ==> ");
-  /*
+  
   const { Client, LocalAuth, Buttons, List } = require("whatsapp-web.js");
   const qrcode = require("qrcode-terminal");
   
@@ -16,7 +16,7 @@ async function main() {
   const client = new Client({
     authStrategy: new LocalAuth(),
   });
-  
+  /*
   client.on("qr", (qr) => {
     console.log("qr is Started ==> ");
     qrcode.generate(qr, { small: true });
