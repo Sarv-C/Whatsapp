@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:4d0ac5fb877cbefecb333657032302c3ce776813698d779116ea056c6829c665
-size 819
-=======
+
 const { Client, LocalAuth, Buttons, List } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
  
@@ -36,4 +32,3 @@ client.on("ready", () => {
 });
  
 client.initialize();
->>>>>>> 02e172d8b4cfae0aa6ebe4fc54221e0073c340ef
