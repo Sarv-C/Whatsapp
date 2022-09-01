@@ -1,4 +1,4 @@
-const browser = await puppeteer.launch({
+const browser = puppeteer.launch({
   headless:false,
   args: ["--no-sandbox"]
 });
