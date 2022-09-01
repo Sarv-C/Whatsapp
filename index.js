@@ -1,3 +1,8 @@
+const browser = await puppeteer.launch({
+  headless:false,
+  args: ["--no-sandbox"]
+});
+
 const { Client, LocalAuth, Buttons, List } = require("whatsapp-web.js");
 const qrcode = require("qrcode-terminal");
  
