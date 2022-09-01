@@ -6,6 +6,8 @@ async function main() {
     args: ["--no-sandbox"]
   });
   
+  console.log("Client is ready! ==> ");
+  /*
   const { Client, LocalAuth, Buttons, List } = require("whatsapp-web.js");
   const qrcode = require("qrcode-terminal");
   
@@ -40,7 +42,7 @@ async function main() {
   
   client.initialize();
   
-  
+  */
   //browser.close();
 }
 
