@@ -16,13 +16,13 @@ async function main() {
   const client = new Client({
     authStrategy: new LocalAuth(),
   });
-  /*
+  
   client.on("qr", (qr) => {
     console.log("qr is Started ==> ");
     qrcode.generate(qr, { small: true });
     console.log("qr is completed ==> ");
   });
-  
+  /*
   client.on("ready", () => {
     console.log("Client is ready!");
     
