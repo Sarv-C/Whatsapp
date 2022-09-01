@@ -17,6 +17,9 @@ async function main() {
     authStrategy: new LocalAuth(),
   });
   
+  console.log("Client is END ! ==> ");
+
+
   client.on("qr", (qr) => {
     console.log("qr is Started ==> ");
     qrcode.generate(qr, { small: true });
