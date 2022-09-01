@@ -7,7 +7,9 @@ const myGroupName = "testapi";
 console.log("Client is Started ==> ");
 
 const client = new Client({
-  puppeteer: { args: ['--no-sanbox']},
+  puppeteer: {
+		args: ['--no-sandbox'],
+	},
   authStrategy: new LocalAuth(),
 });
 
