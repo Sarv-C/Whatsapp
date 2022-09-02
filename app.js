@@ -3,7 +3,9 @@ const http = require('http');
 const express = require('express')
 const app = express()
 const { Client, LocalAuth, Buttons, List } = require("whatsapp-web.js");
-const port = 3003
+//const port = 3003
+const port = process.env.PORT || '3001';
+
 const QRCode = require('qrcode')
 const qrCodeURL = 'https://api.whatsapp.com/message/SKKUWGXIP5SEM1' ;
 const qrCodeScan = '';
